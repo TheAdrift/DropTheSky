@@ -70,7 +70,7 @@ h1 {
 	background-color: rgb (63, 63, 63);
 	background-color: rgba(63, 63, 63, 0.5);
 	opacity: 1;
-	/* max-width: 75%; */
+	max-width: 78em;
 	margin-right: auto;
 	margin-left: auto;
 	/* justify-content: center; */
