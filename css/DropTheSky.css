@@ -64,6 +64,19 @@ h1 {
 	background-color: rgb (63, 63, 63);
 	background-color: rgba(63, 63, 63, 0.5);
 	}
+
+#spread {
+	padding: 1em;
+	background-color: rgb (63, 63, 63);
+	background-color: rgba(63, 63, 63, 0.5);
+	opacity: 1;
+	/* max-width: 75%; */
+	margin-right: auto;
+	margin-left: auto;
+	/* justify-content: center; */
+	text-align: center;
+	}
+
 #nxt {
 	background-color: gray;
 	opacity: 0.5;
