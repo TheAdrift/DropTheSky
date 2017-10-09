@@ -1,5 +1,6 @@
 //import {Vector} from "./untitled.js";
-
+document.getElementById('test').width = window.innerWidth;
+document.getElementById('test').height = window.innerHeight;
 var ctx = document.getElementById('test').getContext('2d');
 var dim = [document.getElementById('test').width, document.getElementById('test').height];
 
@@ -31,6 +32,7 @@ var now = new Date();
 var last = now;
 var circle = new Ball(Math.random()*50, [Math.random()*dim[0], Math.random()*dim[1]], [(Math.random()-.5)*1000, (Math.random()-.5)*1000]);
 var trail = (Math.random() >= 0.5)? true : false;
+ctx.fillStyle = 'rgb('+ Math.trunc(Math.random()*255) +', '+ Math.trunc(Math.random()*255) +', '+ Math.trunc(Math.random()*255) +')';
 
 function update() {
 	if (trail == false){ ctx.clearRect(0, 0, dim[0], dim[1]); };
